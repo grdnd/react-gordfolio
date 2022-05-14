@@ -1,6 +1,121 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../App.css";
+import { validateEmail } from "../../utils/helpers";
+import { Button } from "../Button";
 
-export default function Contact() {
-  return <h1 className="contact">contact</h1>;
+function Contact() {
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errorMessage, setErrorMessage] = useState("");
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!errorMessage) {
+      console.log("Submitted", formState);
+    }
+  };
+
+  const handleChange = (e) => {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage("email is missing or invalid.");
+      } else {
+        setErrorMessage("please reload and try again");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage("please reload and try again");
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log("User is filling out form..", formState);
+    }
+  };
+
+  return (
+    <>
+      <div className="contact mt-0">
+        <h1 className="title mb-0">Contact</h1>
+        <div className="columns is-desktop is-centered" id="contact-columns">
+          <div className="column">
+            <section>
+              <form id="contact-form" onSubmit={handleSubmit}>
+                <div className="field">
+                  <label className="label" htmlFor="name">
+                    Name
+                  </label>
+                  <div className="control has-icons-left">
+                    <input
+                      className="input is-danger"
+                      type="text"
+                      name="name"
+                      defaultValue={name}
+                      onBlur={handleChange}
+                    />
+                    <span className="icon is-small is-left">
+                      <i className="fas fa-user" />
+                    </span>
+                  </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor="email">
+                    Email address
+                  </label>
+                  <div className="control has-icons-left">
+                    <input
+                      className="input is-danger"
+                      type="email"
+                      name="email"
+                      defaultValue={email}
+                      onBlur={handleChange}
+                    />
+                    <span className="icon is-small is-left">
+                      <i className="fas fa-envelope" />
+                    </span>
+                  </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor="message">
+                    Message
+                  </label>
+                  <textarea
+                    className="textarea is-danger is-rounded"
+                    name="message"
+                    rows="5"
+                    defaultValue={message}
+                    onBlur={handleChange}
+                    placeholder="Leave a message!"
+                  />
+                </div>
+                {errorMessage && (
+                  <div className="is-flex is-justify-content-right">
+                    <p className="error-msg">{errorMessage}</p>
+                  </div>
+                )}
+                <Button
+                  className="btns"
+                  buttonStyle="btn--outline"
+                  buttonSize="btn--large"
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
+
+export default Contact;
