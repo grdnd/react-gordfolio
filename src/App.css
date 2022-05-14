@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  line-height: 1.2;
+}
+
+hr {
+  margin: -0.5rem 0 1rem 0;
+  width: 350px;
+}
+
+.about-me,
+.portfolio,
+.contact,
+.resume {
+  background-color: #242424;
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 100px;
+  color: #fff;
+}
+
+.portfolio {
+  /* background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.contact {
+  /* background-image: url("");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat; */
+  background-position: #242424;
+}
+
+.resume {
+  /* background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  margin: -0.75rem auto;
+  padding: 24px;
+  width: 100vw;
+}
+
+.container {
+  color: #fff;
+}
+
+.column {
+  margin: auto;
+}
+
+li {
+  margin: 20px 10px;
+}
+
+.skills {
+  text-align: center;
+}
+
+/* .divider {
+  width: 600px;
+} */
+
+#contact-columns {
+  width: 50%;
+  margin: auto;
+}
+
+.label {
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 24px;
+}
+
+.input,
+.textarea {
+  background-color: #242424;
+}
+
+.input {
+  width: 50%;
+}
+
+.textarea::placeholder {
+  color: white;
+  opacity: 20%;
+}
+
+.error-msg-container {
+  text-align: center;
+}
+
+.error-msg {
+  color: #fff;
+  opacity: 20%;
+}
+@media screen and (max-width: 767px) {
+  .mobile-icon {
+    font-size: 50px;
+    margin: 16px;
+  }
+
+  li {
+    font-size: 80%;
+  }
+
+  li p {
+    display: none;
+  }
+}
