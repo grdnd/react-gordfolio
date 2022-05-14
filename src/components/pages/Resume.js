@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../Footer";
 
 export default function Resume() {
   return (
@@ -12,9 +11,9 @@ export default function Resume() {
             <div className="column is-half mt-0 is-flex is-flex-direction-column is-align-items-center">
               <ul className="skills is-flex is-flex-direction-column is-justify-content-center">
                 <li>
-                  <h2>Front-end Proficiencies</h2>
+                  <h2>&#125; Front-end Proficiencies &#123;</h2>
                 </li>
-                <hr />
+                {/* <hr /> */}
                 <li className="is-flex is-align-items-center is-flex-direction-column">
                   <i className="devicon-html5-plain mobile-icon" />
                   <p>HTML</p>
@@ -40,18 +39,18 @@ export default function Resume() {
                   <p>bootstrap</p>
                 </li>
                 <li className="is-flex is-align-items-center is-flex-direction-column">
-                  <i className="devicon-bootstrap-plain mobile-icon" />
+                  <i class="devicon-bulma-plain mobile-icon" />
                   <p>Bulma</p>
                 </li>
-                <li>responsive design</li>
+                <li>Responsive Design</li>
               </ul>
             </div>
             <div className="column is-half mt-0 is-flex is-flex-direction-column is-align-items-center">
               <ul className="skills">
                 <li>
-                  <h2>Back-end Proficiencies</h2>
+                  <h2>&#123; Back-end Proficiencies &#125;</h2>
                 </li>
-                <hr />
+                {/* <hr /> */}
                 <li className="is-flex is-align-items-center is-flex-direction-column">
                   <i className="devicon-nodejs-plain mobile-icon" />
                   <p>Node.js</p>
@@ -61,12 +60,12 @@ export default function Resume() {
                   <p>express</p>
                 </li>
                 <li className="is-flex is-align-items-center is-flex-direction-column">
-                  <i className="devicon-mysql-plain mobile-icon" />
-                  <p>MySQL</p>
-                </li>
-                <li className="is-flex is-align-items-center is-flex-direction-column">
                   <i className="devicon-sequelize-plain mobile-icon" />
                   <p>Sequelize</p>
+                </li>
+                <li className="is-flex is-align-items-center is-flex-direction-column">
+                  <i className="devicon-mysql-plain mobile-icon" />
+                  <p>MySQL</p>
                 </li>
                 <li className="is-flex is-align-items-center is-flex-direction-column">
                   <i className="devicon-mongodb-plain mobile-icon" />
@@ -84,7 +83,6 @@ export default function Resume() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
