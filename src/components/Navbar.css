@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -42,7 +41,6 @@
   text-align: center;
   width: 60vw;
   justify-content: right;
-  margin-right: 2rem;
 }
 
 .nav-item {
@@ -56,6 +54,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: 1.1em;
 }
 
 .nav-links:hover {
@@ -69,6 +68,7 @@
 
 .nav-links-mobile {
   display: none;
+  font-size: 1.3rem;
 }
 
 .menu-icon {
@@ -142,7 +142,6 @@
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
-    font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
