@@ -14,6 +14,22 @@ hr {
   width: 350px;
 }
 
+.pfp {
+  background-image: url("../public/images/pfp.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 360px;
+  border: 10px solid #fff;
+}
+
+.bio {
+  height: 360px;
+  width: 640px;
+  border: 1px solid #fff;
+}
+
 .about-me,
 .portfolio,
 .contact,
@@ -22,9 +38,15 @@ hr {
   font-size: 2rem;
 }
 
-.title {
+.title,
+.about-me-title {
   font-size: 100px;
   color: #fff;
+  padding: 24px;
+}
+
+.control {
+  height: 100%;
 }
 
 .portfolio {
@@ -47,17 +69,18 @@ hr {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; */
-  margin: -0.75rem auto;
-  padding: 24px;
-  width: 100vw;
 }
 
 .container {
   color: #fff;
 }
 
+.contact-body {
+  padding: 24px;
+}
 .column {
   margin: auto;
+  padding: 24px;
 }
 
 li {
@@ -68,32 +91,31 @@ li {
   text-align: center;
 }
 
-/* .divider {
-  width: 600px;
-} */
-
 #contact-columns {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
-.label {
-  color: #fff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  margin-left: 24px;
+#contact-column {
+  border-radius: 5px;
+}
+
+.contact-form {
+  padding: 10px;
 }
 
 .input,
 .textarea {
   background-color: #242424;
+  color: #fff;
 }
 
 .input {
   width: 50%;
 }
 
-.textarea::placeholder {
+.textarea::placeholder,
+.input::placeholder {
   color: white;
   opacity: 20%;
 }
@@ -104,8 +126,26 @@ li {
 
 .error-msg {
   color: #fff;
-  opacity: 20%;
+  opacity: 40%;
 }
+
+hr {
+  margin: auto;
+  width: 70%;
+  opacity: 20%;
+  height: 0.5px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .hidden {
+    display: inline;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .mobile-icon {
     font-size: 50px;
@@ -118,5 +158,9 @@ li {
 
   li p {
     display: none;
+  }
+
+  .input {
+    width: 70%;
   }
 }
