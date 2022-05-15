@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../../App.css";
 import { validateEmail } from "../../utils/helpers";
-import { Button } from "../Button";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -26,13 +25,13 @@ function Contact() {
       if (!isValid) {
         setErrorMessage("email is missing or invalid.");
       } else {
-        setErrorMessage("please reload and try again");
+        setErrorMessage("");
       }
     } else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
-        setErrorMessage("please reload and try again");
+        setErrorMessage("");
       }
     }
     if (!errorMessage) {
@@ -44,21 +43,22 @@ function Contact() {
   return (
     <>
       <div className="contact mt-0">
-        <h1 className="title mb-0">Contact</h1>
-        <div className="columns is-desktop is-centered" id="contact-columns">
-          <div className="column">
+        <h1 className="title mb-0 mt-0">Contact</h1>
+        <div
+          className="columns is-desktop is-centered contact-body"
+          id="contact-columns"
+        >
+          <div className="column" id="contact-column">
             <section>
               <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="field">
-                  <label className="label" htmlFor="name">
-                    Name
-                  </label>
                   <div className="control has-icons-left">
                     <input
                       className="input is-danger"
                       type="text"
                       name="name"
                       defaultValue={name}
+                      placeholder="Name"
                       onBlur={handleChange}
                     />
                     <span className="icon is-small is-left">
@@ -67,14 +67,12 @@ function Contact() {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor="email">
-                    Email address
-                  </label>
                   <div className="control has-icons-left">
                     <input
                       className="input is-danger"
                       type="email"
                       name="email"
+                      placeholder="Email"
                       defaultValue={email}
                       onBlur={handleChange}
                     />
@@ -84,9 +82,6 @@ function Contact() {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor="message">
-                    Message
-                  </label>
                   <textarea
                     className="textarea is-danger is-rounded"
                     name="message"
@@ -101,14 +96,12 @@ function Contact() {
                     <p className="error-msg">{errorMessage}</p>
                   </div>
                 )}
-                <Button
-                  className="btns"
-                  buttonStyle="btn--outline"
-                  buttonSize="btn--large"
+                <button
+                  className="button btn--outline btn--medium"
                   type="submit"
                 >
                   Submit
-                </Button>
+                </button>
               </form>
             </section>
           </div>

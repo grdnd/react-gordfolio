@@ -4,11 +4,11 @@ import "../../App.css";
 export default function Resume() {
   return (
     <>
-      <div className="resume mb-0">
+      <div className="resume mb-0 mt-0">
         <h1 className="title">Resume</h1>
         <div className="container">
           <div className="columns is-desktop is-centered">
-            <div className="column is-half mt-0 is-flex is-flex-direction-column is-align-items-center">
+            <div className="column is-half mt-0 is-flex is-justify-content-center is-flex-direction-column is-align-items-center">
               <ul className="skills is-flex is-flex-direction-column is-justify-content-center">
                 <li>
                   <h2>&#125; Front-end Proficiencies &#123;</h2>
@@ -39,12 +39,15 @@ export default function Resume() {
                   <p>bootstrap</p>
                 </li>
                 <li className="is-flex is-align-items-center is-flex-direction-column">
-                  <i class="devicon-bulma-plain mobile-icon" />
+                  <i className="devicon-bulma-plain mobile-icon" />
                   <p>Bulma</p>
                 </li>
                 <li>Responsive Design</li>
               </ul>
             </div>
+            <aside className="divider-container is-flex is-justify-content-center">
+              <hr className="hidden divider" />
+            </aside>
             <div className="column is-half mt-0 is-flex is-flex-direction-column is-align-items-center">
               <ul className="skills">
                 <li>
@@ -80,6 +83,7 @@ export default function Resume() {
                 <li>APIs</li>
               </ul>
             </div>
+            <div className="column">3</div>
           </div>
         </div>
       </div>
