@@ -1,3 +1,7 @@
+:root {
+  --light: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,20 +18,58 @@ hr {
   width: 350px;
 }
 
-.pfp {
-  background-image: url("../public/images/pfp.JPG");
+.about-me-text-container {
+  background-image: url("../public/images/background-images/cloudy-trees-flipped.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 640px;
-  height: 360px;
-  border: 10px solid #fff;
+  flex-flow: column;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.about-me-text-wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  height: 90vh;
+  width: 80%;
+}
+
+.about-me-text-box {
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-me-text-title-container {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--light);
+}
+
+.about-me-text-title-container h1 {
+  font-size: 2em;
+  font-family: "Trebuchet MS", sans-serif;
+  opacity: 30%;
+}
+
+.about-me-text-content {
+  margin: 20px 0;
+  line-height: 3rem;
+  text-align: left;
+}
+
+.about-me-text-content span {
+  color: #90323d;
 }
 
 .bio {
   height: 360px;
   width: 640px;
-  border: 1px solid #fff;
+  border: 1px solid var(--light);
 }
 
 .about-me,
@@ -41,7 +83,7 @@ hr {
 .title,
 .about-me-title {
   font-size: 100px;
-  color: #fff;
+  color: var(--light);
   padding: 24px;
 }
 
@@ -72,12 +114,13 @@ hr {
 }
 
 .container {
-  color: #fff;
+  color: var(--light);
 }
 
 .contact-body {
   padding: 24px;
 }
+
 .column {
   margin: auto;
   padding: 24px;
@@ -107,7 +150,7 @@ li {
 .input,
 .textarea {
   background-color: #242424;
-  color: #fff;
+  color: var(--light);
 }
 
 .input {
@@ -125,7 +168,7 @@ li {
 }
 
 .error-msg {
-  color: #fff;
+  color: var(--light);
   opacity: 40%;
 }
 
@@ -143,6 +186,10 @@ hr {
 @media screen and (max-width: 1023px) {
   .hidden {
     display: inline;
+  }
+
+  .about-me-text-title-container {
+    font-size: 1rem;
   }
 }
 
