@@ -10,8 +10,8 @@ function BioCard() {
           <ul className="bio__cards__items">
             <BioCardItem
               src="/images/pfp.JPG"
-              text="My name is Gordon Do."
-              label="Web Development Student"
+              text="Hi, my name is Gordon. Click here to view my work!"
+              label="Web Developer"
               path="/portfolio"
             />
           </ul>
