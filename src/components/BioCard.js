@@ -1,6 +1,6 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./BioCard.css";
+import BioCardItem from "./BioCardItem";
 
 function BioCard() {
   return (
@@ -8,9 +8,9 @@ function BioCard() {
       <div className="bio__cards__container">
         <div className="bio__cards__wrapper">
           <ul className="bio__cards__items">
-            <CardItem
+            <BioCardItem
               src="/images/pfp.JPG"
-              text="My name is Gordon Do"
+              text="My name is Gordon Do."
               label="Web Development Student"
               path="/portfolio"
             />
