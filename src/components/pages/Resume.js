@@ -83,7 +83,6 @@ export default function Resume() {
                 <li>APIs</li>
               </ul>
             </div>
-            <div className="column">3</div>
           </div>
         </div>
       </div>
