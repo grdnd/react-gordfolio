@@ -80,10 +80,12 @@
   text-align: left;
   width: 160px;
   box-sizing: border-box;
+  font-size: 1.3rem;
 }
 
 .footer-link-items h2 {
   margin-bottom: 16px;
+  font-size: 2rem;
 }
 
 .footer-link-items > h2 {
@@ -133,7 +135,7 @@
 
 .social-icon-link {
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .social-logo {
@@ -163,7 +165,7 @@
   }
 
   .btn {
-    width: 100%;
+    width: 100;
   }
 
   .footer-link-wrapper {

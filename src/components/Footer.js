@@ -19,9 +19,11 @@ function Footer() {
               placeholder="Your Email"
               className="footer-input"
             />
-            <Link className="btn btn--outline btn--large" to="/contact">
-              Sign-up
-            </Link>
+            <div className="btn-width is-flex is-justify-content-start">
+              <Link className="btn btn--outline btn--large" to="/contact">
+                Sign-up
+              </Link>
+            </div>
           </form>
         </div>
       </section>
