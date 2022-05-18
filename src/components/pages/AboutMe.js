@@ -25,11 +25,11 @@ export default function AboutMe() {
                 <br></br>Throughout my lifetime I have been infatuated with art
                 of all forms, and have seen firsthand the many ways
                 self-expression propels individuals to become the greatest
-                versions of themselves. Throughout my time as a web developer,
+                versions of themselves. As a full stack web developer,
                 <br></br>
                 <span className="is-flex is-justify-content-center is-align-items-center">
                   I wish to accomplish my dream of helping creators bring their
-                  visions come to life.
+                  visions to life.
                 </span>
               </p>
             </div>
