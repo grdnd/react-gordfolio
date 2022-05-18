@@ -183,6 +183,10 @@ hr {
   display: none;
 }
 
+.find-me {
+  margin-bottom: 16px;
+}
+
 @media screen and (max-width: 1023px) {
   .hidden {
     display: inline;
