@@ -55,30 +55,30 @@ function Footer() {
             © 2022 Gordon Do | Orange County, California
           </small>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link linkedIn"
-              to="/"
+              href="https://www.linkedin.com/in/gord-folio/"
               target="_blank"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link github"
-              to="/"
+              href="https://github.com/grdnd"
               target="_blank"
               aria-label="LinkedIn"
             >
               <i className="fab fa-github" />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link email"
               to="/"
               target="_blank"
               aria-label="LinkedIn"
             >
               <i className="fas fa-envelope" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
