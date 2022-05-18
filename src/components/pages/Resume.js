@@ -84,6 +84,12 @@ export default function Resume() {
               </ul>
             </div>
           </div>
+          <div className="is-flex is-justify-content-center is-align-items-center">
+            <h1 className="find-me">
+              I am now on{" "}
+              <a href="https://www.linkedin.com/in/gord-folio/">LinkedIn</a>!
+            </h1>
+          </div>
         </div>
       </div>
     </>
