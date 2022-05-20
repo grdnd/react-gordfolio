@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/about-me/static/css/main.88e58da6.css",
+    "main.js": "/about-me/static/js/main.02e77006.js",
+    "static/media/cloudy-trees-flipped.jpg": "/about-me/static/media/cloudy-trees-flipped.4eaa711c8405448a52e4.jpg",
+    "static/media/cloudy-trees.jpg": "/about-me/static/media/cloudy-trees.ae5f3526dbf493d7adbc.jpg",
+    "index.html": "/about-me/index.html",
+    "main.88e58da6.css.map": "/about-me/static/css/main.88e58da6.css.map",
+    "main.02e77006.js.map": "/about-me/static/js/main.02e77006.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88e58da6.css",
+    "static/js/main.02e77006.js"
+  ]
+}
