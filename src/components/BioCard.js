@@ -9,7 +9,7 @@ function BioCard() {
         <div className="bio__cards__wrapper">
           <ul className="bio__cards__items">
             <BioCardItem
-              src="/images/pfp.JPG"
+              src="../../public/images/pfp.JPG"
               text="Hi, my name is Gordon. Click here to view my work!"
               label="Web Developer"
               path="/portfolio"

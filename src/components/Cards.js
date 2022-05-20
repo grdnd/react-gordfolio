@@ -1,3 +1,4 @@
+import React from "react";
 import CardItem from "./CardItem";
 import "../components/Cards.css";
 
@@ -9,7 +10,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="/images/project-images/PRODUCTpg.png"
+              src="../../public/images"
               text="A product page populated with items from your database!"
               label="E-Commerce | Node.js / Express / MySQL"
               href="https://groupprojectii-app.herokuapp.com/products"
@@ -31,7 +32,7 @@ function Cards() {
             <CardItem
               src="/images/project-images/LOGINpg.png"
               text="Beautiful login pages to authenticate your users"
-              label="Authentication | HTML / CSS / JS / Node / Handlebars"
+              label="Authentication | CSS / JS / Node / Handlebars"
               href="https://groupprojectii-app.herokuapp.com/login"
             />
             <CardItem
@@ -45,12 +46,12 @@ function Cards() {
             <CardItem
               src="/images/project-images/dayPlanner.jpg"
               text="Stay ahead of your tasks with this Work Day Scheduler"
-              label="404 | HTML / CSS / JavaScript"
+              label="Scheduling | HTML / CSS / JavaScript"
               href="https://github.com/grdnd/dayPlanner"
             />
             <CardItem
               src="/images/project-images/codingQuiz.jpg"
-              text="Test your coding knowledge with this this coding quiz"
+              text="Test your coding knowledge with this coding quiz"
               label="Assessment | HTML / CSS / JavaScript"
               href="https://github.com/grdnd/coding-quiz"
             />

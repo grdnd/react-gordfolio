@@ -59,6 +59,7 @@ function Footer() {
               className="social-icon-link linkedIn"
               href="https://www.linkedin.com/in/gord-folio/"
               target="_blank"
+              rel="noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin" />
@@ -67,14 +68,16 @@ function Footer() {
               className="social-icon-link github"
               href="https://github.com/grdnd"
               target="_blank"
+              rel="noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fab fa-github" />
             </a>
             <a
               className="social-icon-link email"
-              to="/"
+              href="mailto:gordfolio@gmail.com"
               target="_blank"
+              rel="noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fas fa-envelope" />
