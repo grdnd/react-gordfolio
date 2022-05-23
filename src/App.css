@@ -143,12 +143,17 @@ hr {
   padding: 24px;
 }
 
-li {
+.skill-icon {
   margin: 20px 10px;
+  padding: 10px;
 }
 
 .skills {
   text-align: center;
+}
+
+.backend {
+  margin-top: 5px;
 }
 
 #contact-columns {
