@@ -31,7 +31,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
             <h2>About</h2>
-            <Link to="/">About Me</Link>
+            <Link to="/react-gordfolio">About Me</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/portfolio">Portfolio</Link>
           </div>
@@ -46,7 +46,7 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            <Link to="/react-gordfolio" className="social-logo">
               <i className="fas fa-chess-rook" />
               GORDO
             </Link>
