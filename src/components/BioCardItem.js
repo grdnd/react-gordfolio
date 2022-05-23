@@ -10,7 +10,11 @@ function BioCardItem(props) {
             className="bio__cards__item__pic-wrap"
             data-category={props.label}
           >
-            <img src={props.src} alt="" className="bio__cards__item__img" />
+            <img
+              src={props.src}
+              alt=""
+              className="bio__cards__item__img picture"
+            />
           </figure>
           <div className="bio__cards__item__info">
             <h5 className="bio__cards__item__text">{props.text}</h5>

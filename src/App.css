@@ -19,51 +19,68 @@ hr {
 }
 
 .about-me-text-container {
-  background-image: url("../public/images/background-images/cloudy-trees-flipped.jpg");
-  background-position: center;
+  background: url("../public/images/background-images/cloud-trees-flipped-cropped.jpg")
+    no-repeat center center fixed;
+  /* background-image: url("../../public/images/pfp.JPG"); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
   flex-flow: column;
   font-family: "Trebuchet MS", sans-serif;
 }
 
 .about-me-text-wrapper {
+  font-size: 1.5rem;
+  color: #242424;
   position: relative;
-  margin: 50px 0 45px;
-  height: 90vh;
-  width: 80%;
+  margin-bottom: 76.8px;
+  width: 70%;
+  /* height: 50vh; */
 }
 
 .about-me-text-box {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  font-family: "Trebuchet MS";
+  font-size: 110%;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.15);
   border-radius: 20px;
-  padding: 50px;
+  padding: 24px;
   text-align: center;
+  height: auto;
+  width: auto;
 }
 
 .about-me-text-title-container {
-  display: flex;
-  justify-content: flex-end;
+  position: relative;
+  font-size: 2rem;
   color: var(--light);
+  /* margin: 30px 0; */
 }
 
-.about-me-text-title-container h1 {
-  font-size: 2em;
+.about-me-text-title-container span {
+  font-size: 200%;
   font-family: "Trebuchet MS", sans-serif;
   opacity: 30%;
+  margin: 5px;
 }
 
 .about-me-text-content {
   margin: 20px 0;
-  line-height: 3rem;
+  /* line-height: 3rem; */
   text-align: left;
+  opacity: 60%;
+  font-weight: 600;
+  font-family: "Trebuchet MS";
 }
 
 .about-me-text-content span {
-  color: #90323d;
+  color: #973440;
+  font-family: "Trebuchet MS";
+}
+
+.fade {
+  font-family: "Trebuchet MS";
 }
 
 .bio {
@@ -77,7 +94,7 @@ hr {
 .contact,
 .resume {
   background-color: #242424;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .title,
@@ -184,7 +201,7 @@ hr {
 }
 
 .find-me {
-  margin-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -193,7 +210,8 @@ hr {
   }
 
   .about-me-text-title-container {
-    font-size: 1rem;
+    position: relative;
+    font-size: 2rem;
   }
 }
 
@@ -213,5 +231,25 @@ hr {
 
   .input {
     width: 70%;
+  }
+
+  .about-me-text-wrapper {
+    width: 70%;
+    padding-top: -50px;
+  }
+
+  .about-me-text-box {
+    font-size: 1.2rem;
+  }
+
+  .about-me-title-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me-text-title-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -17,6 +17,7 @@
   margin-bottom: 24px;
   padding: 24px;
   color: #fff;
+  width: 70%;
 }
 
 .footer-signup > p {
@@ -34,15 +35,8 @@
   font-size: 20px;
 }
 
-.quote1 {
-  position: absolute;
-  font-size: 100px;
-  opacity: 10%;
-}
-
-.quote2 {
-  font-size: 100px;
-  opacity: 10%;
+.input-areas {
+  width: 50%;
 }
 
 .footer-input {
@@ -55,6 +49,7 @@
   margin-bottom: 16px;
   border: 1px solid #fff;
   height: 48px;
+  width: 100%;
 }
 
 .footer-links {
@@ -162,10 +157,6 @@
 
   .footer-input {
     width: 100%;
-  }
-
-  .btn {
-    width: 100;
   }
 
   .footer-link-wrapper {

@@ -11,32 +11,29 @@ h1 {
 }
 
 .bio__cards__container {
-  background-image: url("../../public/images/background-images/cloudy-trees.jpg");
-  background-position: center;
+  background: url("../../public/images/background-images/cloud-trees-flipped-cropped.jpg")
+    no-repeat center center fixed;
+  /* background-image: url("../../public/images/pfp.JPG"); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .bio__cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
-  padding-top: 100px;
-  height: 90vh;
-  width: 50%;
+  padding-top: 50px;
+  height: 50vh;
 }
 
 .bio__cards__items {
-  margin-bottom: auto;
+  margin: auto;
 }
 
 .bio__cards__item {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
+  margin: auto;
   border-radius: 10px;
 }
 
@@ -50,6 +47,8 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  height: 90%;
+  margin: auto;
 }
 
 .bio__cards__item__pic-wrap {
@@ -106,10 +105,4 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .bio__cards__wrapper {
-    width: 70%;
-  }
 }
