@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gordfolio/about-me/static/css/main.d022c1ed.css",
-    "main.js": "/react-gordfolio/about-me/static/js/main.8306980f.js",
-    "static/media/404pg.png": "/react-gordfolio/about-me/static/media/404pg.27beec8adc64a288764c.png",
-    "static/media/LOGINpg.png": "/react-gordfolio/about-me/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
-    "static/media/PRODUCTpg.png": "/react-gordfolio/about-me/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
-    "static/media/pfp.JPG": "/react-gordfolio/about-me/static/media/pfp.9fb5b4f7c8111364cc60.JPG",
-    "static/media/AlcoholicsAnonymous.png": "/react-gordfolio/about-me/static/media/AlcoholicsAnonymous.7b052997a574915cff86.png",
-    "static/media/cloud-trees-flipped-cropped.jpg": "/react-gordfolio/about-me/static/media/cloud-trees-flipped-cropped.0d60b9122271c4680172.jpg",
-    "static/media/dayPlanner.jpg": "/react-gordfolio/about-me/static/media/dayPlanner.7ba3f6b000f293d62b1b.jpg",
-    "static/media/passwordGenerator.jpg": "/react-gordfolio/about-me/static/media/passwordGenerator.0e3539559fb5f8c9ba12.jpg",
-    "static/media/teamProfileGen.png": "/react-gordfolio/about-me/static/media/teamProfileGen.b1580f9bc92d2858b657.png",
-    "static/media/codingQuiz.jpg": "/react-gordfolio/about-me/static/media/codingQuiz.d1b254cfe680a3881d48.jpg",
-    "index.html": "/react-gordfolio/about-me/index.html",
-    "main.d022c1ed.css.map": "/react-gordfolio/about-me/static/css/main.d022c1ed.css.map",
-    "main.8306980f.js.map": "/react-gordfolio/about-me/static/js/main.8306980f.js.map"
+    "main.css": "/react-gordfolio/static/css/main.40e41c84.css",
+    "main.js": "/react-gordfolio/static/js/main.4f044644.js",
+    "static/media/404pg.png": "/react-gordfolio/static/media/404pg.27beec8adc64a288764c.png",
+    "static/media/LOGINpg.png": "/react-gordfolio/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
+    "static/media/PRODUCTpg.png": "/react-gordfolio/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
+    "static/media/pfp.JPG": "/react-gordfolio/static/media/pfp.9fb5b4f7c8111364cc60.JPG",
+    "static/media/AlcoholicsAnonymous.png": "/react-gordfolio/static/media/AlcoholicsAnonymous.7b052997a574915cff86.png",
+    "static/media/cloud-trees-flipped-cropped.jpg": "/react-gordfolio/static/media/cloud-trees-flipped-cropped.0d60b9122271c4680172.jpg",
+    "static/media/dayPlanner.jpg": "/react-gordfolio/static/media/dayPlanner.7ba3f6b000f293d62b1b.jpg",
+    "static/media/passwordGenerator.jpg": "/react-gordfolio/static/media/passwordGenerator.0e3539559fb5f8c9ba12.jpg",
+    "static/media/teamProfileGen.png": "/react-gordfolio/static/media/teamProfileGen.b1580f9bc92d2858b657.png",
+    "static/media/codingQuiz.jpg": "/react-gordfolio/static/media/codingQuiz.d1b254cfe680a3881d48.jpg",
+    "index.html": "/react-gordfolio/index.html",
+    "main.40e41c84.css.map": "/react-gordfolio/static/css/main.40e41c84.css.map",
+    "main.4f044644.js.map": "/react-gordfolio/static/js/main.4f044644.js.map"
   },
   "entrypoints": [
-    "static/css/main.d022c1ed.css",
-    "static/js/main.8306980f.js"
+    "static/css/main.40e41c84.css",
+    "static/js/main.4f044644.js"
   ]
 }
