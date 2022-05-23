@@ -18,12 +18,13 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: 50px;
 }
 
 .bio__cards__wrapper {
   position: relative;
   padding-top: 50px;
-  height: 50vh;
+  height: 80vh;
 }
 
 .bio__cards__items {
