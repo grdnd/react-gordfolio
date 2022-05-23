@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.620572ae.css",
-    "main.js": "/about-me/static/js/main.f4396bb6.js",
-    "static/media/404pg.png": "/about-me/static/media/404pg.27beec8adc64a288764c.png",
-    "static/media/LOGINpg.png": "/about-me/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
-    "static/media/PRODUCTpg.png": "/about-me/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
-    "static/media/pfp.JPG": "/about-me/static/media/pfp.9fb5b4f7c8111364cc60.JPG",
-    "static/media/AlcoholicsAnonymous.png": "/about-me/static/media/AlcoholicsAnonymous.7b052997a574915cff86.png",
-    "static/media/cloud-trees-flipped-cropped.jpg": "/about-me/static/media/cloud-trees-flipped-cropped.0d60b9122271c4680172.jpg",
-    "static/media/dayPlanner.jpg": "/about-me/static/media/dayPlanner.7ba3f6b000f293d62b1b.jpg",
-    "static/media/passwordGenerator.jpg": "/about-me/static/media/passwordGenerator.0e3539559fb5f8c9ba12.jpg",
-    "static/media/teamProfileGen.png": "/about-me/static/media/teamProfileGen.b1580f9bc92d2858b657.png",
-    "static/media/codingQuiz.jpg": "/about-me/static/media/codingQuiz.d1b254cfe680a3881d48.jpg",
-    "index.html": "/about-me/index.html",
-    "main.620572ae.css.map": "/about-me/static/css/main.620572ae.css.map",
-    "main.f4396bb6.js.map": "/about-me/static/js/main.f4396bb6.js.map"
+    "main.css": "/react-portfolio/about-me/static/css/main.f48a9bb0.css",
+    "main.js": "/react-portfolio/about-me/static/js/main.bd4dd4c5.js",
+    "static/media/404pg.png": "/react-portfolio/about-me/static/media/404pg.27beec8adc64a288764c.png",
+    "static/media/LOGINpg.png": "/react-portfolio/about-me/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
+    "static/media/PRODUCTpg.png": "/react-portfolio/about-me/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
+    "static/media/pfp.JPG": "/react-portfolio/about-me/static/media/pfp.9fb5b4f7c8111364cc60.JPG",
+    "static/media/AlcoholicsAnonymous.png": "/react-portfolio/about-me/static/media/AlcoholicsAnonymous.7b052997a574915cff86.png",
+    "static/media/cloud-trees-flipped-cropped.jpg": "/react-portfolio/about-me/static/media/cloud-trees-flipped-cropped.0d60b9122271c4680172.jpg",
+    "static/media/dayPlanner.jpg": "/react-portfolio/about-me/static/media/dayPlanner.7ba3f6b000f293d62b1b.jpg",
+    "static/media/passwordGenerator.jpg": "/react-portfolio/about-me/static/media/passwordGenerator.0e3539559fb5f8c9ba12.jpg",
+    "static/media/teamProfileGen.png": "/react-portfolio/about-me/static/media/teamProfileGen.b1580f9bc92d2858b657.png",
+    "static/media/codingQuiz.jpg": "/react-portfolio/about-me/static/media/codingQuiz.d1b254cfe680a3881d48.jpg",
+    "index.html": "/react-portfolio/about-me/index.html",
+    "main.f48a9bb0.css.map": "/react-portfolio/about-me/static/css/main.f48a9bb0.css.map",
+    "main.bd4dd4c5.js.map": "/react-portfolio/about-me/static/js/main.bd4dd4c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.620572ae.css",
-    "static/js/main.f4396bb6.js"
+    "static/css/main.f48a9bb0.css",
+    "static/js/main.bd4dd4c5.js"
   ]
 }
