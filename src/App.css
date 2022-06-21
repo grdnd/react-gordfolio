@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+
 :root {
   --light: #fff;
 }
@@ -99,7 +101,7 @@ hr {
 
 .title,
 .about-me-title {
-  font-size: 100px;
+  font-size: 8vw;
   color: var(--light);
   padding: 24px;
 }
@@ -256,5 +258,8 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .about-me-text-wrapper {
+    padding-top: 50px;
   }
 }
