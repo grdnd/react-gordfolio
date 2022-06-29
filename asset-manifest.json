@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/react-gordfolio/static/css/main.37cfea38.css",
-    "main.js": "/react-gordfolio/static/js/main.7d996161.js",
+    "main.css": "/react-gordfolio/static/css/main.2c15d819.css",
+    "main.js": "/react-gordfolio/static/js/main.3a095fea.js",
     "static/media/404pg.png": "/react-gordfolio/static/media/404pg.27beec8adc64a288764c.png",
     "static/media/LOGINpg.png": "/react-gordfolio/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
     "static/media/PRODUCTpg.png": "/react-gordfolio/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
+    "static/media/gordfolio2-preview.png": "/react-gordfolio/static/media/gordfolio2-preview.20b8bdeb988dd523befb.png",
+    "static/media/MERN-book-search-engine.png": "/react-gordfolio/static/media/MERN-book-search-engine.239bdd35440f0e617ace.png",
     "static/media/pfp.JPG": "/react-gordfolio/static/media/pfp.9fb5b4f7c8111364cc60.JPG",
     "static/media/AlcoholicsAnonymous.png": "/react-gordfolio/static/media/AlcoholicsAnonymous.7b052997a574915cff86.png",
     "static/media/cloud-trees-flipped-cropped.jpg": "/react-gordfolio/static/media/cloud-trees-flipped-cropped.0d60b9122271c4680172.jpg",
@@ -12,12 +14,14 @@
     "static/media/passwordGenerator.jpg": "/react-gordfolio/static/media/passwordGenerator.0e3539559fb5f8c9ba12.jpg",
     "static/media/teamProfileGen.png": "/react-gordfolio/static/media/teamProfileGen.b1580f9bc92d2858b657.png",
     "static/media/codingQuiz.jpg": "/react-gordfolio/static/media/codingQuiz.d1b254cfe680a3881d48.jpg",
+    "static/media/expres-note-taker.png": "/react-gordfolio/static/media/expres-note-taker.26ddc258e58163d156f7.png",
+    "static/media/pwa-jate.png": "/react-gordfolio/static/media/pwa-jate.fbd13cd9e87b71018ba1.png",
     "index.html": "/react-gordfolio/index.html",
-    "main.37cfea38.css.map": "/react-gordfolio/static/css/main.37cfea38.css.map",
-    "main.7d996161.js.map": "/react-gordfolio/static/js/main.7d996161.js.map"
+    "main.2c15d819.css.map": "/react-gordfolio/static/css/main.2c15d819.css.map",
+    "main.3a095fea.js.map": "/react-gordfolio/static/js/main.3a095fea.js.map"
   },
   "entrypoints": [
-    "static/css/main.37cfea38.css",
-    "static/js/main.7d996161.js"
+    "static/css/main.2c15d819.css",
+    "static/js/main.3a095fea.js"
   ]
 }
