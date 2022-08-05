@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gordfolio/static/css/main.e1308317.css",
-    "main.js": "/react-gordfolio/static/js/main.c8bcb9b2.js",
+    "main.css": "/react-gordfolio/static/css/main.d25faf88.css",
+    "main.js": "/react-gordfolio/static/js/main.0943979a.js",
     "static/media/404pg.png": "/react-gordfolio/static/media/404pg.27beec8adc64a288764c.png",
     "static/media/LOGINpg.png": "/react-gordfolio/static/media/LOGINpg.e651b3c73107b1a9cfa3.png",
     "static/media/PRODUCTpg.png": "/react-gordfolio/static/media/PRODUCTpg.1b74ff9b8b32956d8f09.png",
@@ -17,11 +17,11 @@
     "static/media/expres-note-taker.png": "/react-gordfolio/static/media/expres-note-taker.26ddc258e58163d156f7.png",
     "static/media/pwa-jate.png": "/react-gordfolio/static/media/pwa-jate.fbd13cd9e87b71018ba1.png",
     "index.html": "/react-gordfolio/index.html",
-    "main.e1308317.css.map": "/react-gordfolio/static/css/main.e1308317.css.map",
-    "main.c8bcb9b2.js.map": "/react-gordfolio/static/js/main.c8bcb9b2.js.map"
+    "main.d25faf88.css.map": "/react-gordfolio/static/css/main.d25faf88.css.map",
+    "main.0943979a.js.map": "/react-gordfolio/static/js/main.0943979a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1308317.css",
-    "static/js/main.c8bcb9b2.js"
+    "static/css/main.d25faf88.css",
+    "static/js/main.0943979a.js"
   ]
 }
